@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+    
+                 
+                            
+                                                                        
+                 
+                             
+                                                                                
+
+           
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical" android:tag="layout/fragment_login_0">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter phone number"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="24dp"
+            android:inputType="number"
+            android:tag="binding_1"                      
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:hint="password"
+            android:tag="binding_2"                   
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:padding="16dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:tag="binding_3"                           
+                                         
+                                                                    
+            />
+
+
+
+
+    </LinearLayout>
+         
